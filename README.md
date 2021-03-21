@@ -1,0 +1,53 @@
+# nginx
+## info
+- **nginx version:**   nginx/1.19.9
+- built by **cl** 19.28
+- built with **OpenSSL** 1.1.1j  16 Feb 2021
+- TLS SNI support enabled
+- **configure arguments:** <br>
+--with-cc=cl <br>
+&nbsp;&nbsp;&nbsp;&nbsp;--with-debug<br>
+ --prefix= <br>
+ --conf-path=conf/nginx.conf <br>
+ --pid-path=logs/nginx.pid  <br>
+ --http-log-path=logs/access.log  <br>
+ --error-log-path=logs/error.log  <br>
+ --sbin-path=nginx.exe  <br>
+ --http-client-body-temp-path=temp/client_body_temp <br>
+ --http-proxy-temp-path=temp/proxy_temp <br>
+ --http-fastcgi-temp-path=temp/fastcgi_temp  <br>
+ --http-scgi-temp-path=temp/scgi_temp  <br>
+ --http-uwsgi-temp-path=temp/uwsgi_temp <br>
+ --with-cc-opt=-DFD_SETSIZE=1024 <br>
+ --with-pcre=objs/lib/pcre-8.44 <br>
+ --with-zlib=objs/lib/zlib-1.2.11  <br>
+ --with-openssl=objs/lib/openssl-1.1.1j <br>
+ --with-openssl-opt='no-asm no-tests -D_WIN32_WINNT=0x0501'  <br>
+ --with-http_ssl_module <br>
+ --with-http_v2_module <br>
+ --with-http_realip_module <br>
+ --with-http_addition_module <br>
+ --with-http_sub_module <br>
+ --with-http_dav_module <br>
+ --add-module=./nginx-dav-ext-module-3.0.0  <br>
+ --with-http_stub_status_module  <br>
+ --with-http_flv_module  <br>
+ --with-http_mp4_module  <br>
+ --with-http_gunzip_module <br>
+ --with-http_gzip_static_module  <br>
+ --with-http_auth_request_module  <br>
+ --with-http_random_index_module  <br>
+ --with-http_secure_link_module  <br>
+ --with-http_slice_module  <br>
+ --with-mail  <br>
+ --with-mail_ssl_module  <br>
+ --with-stream  <br>
+ --with-stream_ssl_module  <br>
+ --with-stream_realip_module  <br>
+ --with-stream_ssl_preread_module <br>
+ --with-compat  <br>
+ --with-pcre  <br>
+ --with-pcre-jit <br>
+ --with-libatomic <br>
+ --with-http_xslt_module  <br>
+ --with-debug <br>

@@ -1,4 +1,6 @@
 # nginx
+## os
+- windows_x86
 ## info
 - **nginx version:**   nginx/1.19.9
 - built by **cl** 19.28
